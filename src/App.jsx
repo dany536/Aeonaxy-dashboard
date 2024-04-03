@@ -1,6 +1,4 @@
 import './App.css'
-import Test from './Component/test'
-import Admin from './Component/admin'
 
 import Header from './Component/header'
 import Hero from './Component/hero'
@@ -11,10 +9,8 @@ function App() {
 
   return (
     <>
-      {/* <Test /> */}
       <Header />
-
-      <Hero />
+        <Hero />
       <Footer />
 
     </>
